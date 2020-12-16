@@ -4,13 +4,15 @@ const quotes = [
         quote: `I think all cats are wild. They only act tame if there’s a saucer of milk in it for them.`,
         source: 'Douglas Adams',
         citation: '',
-        year: ''
+        year: '',
+		tags: ['humour']
     },
     {
         quote: `How we behave toward cats here below determines our status in heaven.`,
         source: 'Robert Heinlein',
         citation: 'To Sail beyond the Sunset. (Novel)',
-        year: 1987
+        year: 1987,
+		tags: ['novel']
     },
     {
         quote: `
@@ -19,7 +21,8 @@ const quotes = [
             `,
         source: 'Emily Bronte',
         citation: 'The Cat (Essay)',
-        year: ''
+        year: '',
+		tags: []
     },
     {
         quote: `
@@ -28,13 +31,15 @@ const quotes = [
             `,
         source: 'Mark Twain',
         citation: 'his notebooks',
-        year: 1894
+        year: 1894,
+		tags: []
     },
     {
         quote: `I have studied many philosophers and many cats. The wisdom of cats is infinitely superior.`,
         source: 'Hippolyte Taine',
         citation: 'Vie et opinions philosophiques d’un chat. (book)',
-        year: 1858
+        year: 1858,
+		tags: []
     },
     {
         quote: `
@@ -42,19 +47,22 @@ const quotes = [
             but a cat does not.`,
         source: 'Ernest Hemingway',
         citation: '',
-        year: ''
+        year: '',
+		tags: []
     },
     {
         quote: `The cat does not offer services. The cat offers itself.`,
         source: 'William Burroughs',
         citation: 'The Cat Inside (prose poem)',
-        year: ''
+        year: '',
+		tags: []
     },
     {
         quote: `The cat is, above all things, a dramatist.`,
         source: 'Margaret Benson',
         citation: 'The Soul of a Cat and Other Stories',
-        year: 1901
+        year: 1901,
+		tags: []
     },
     {
         quote: `
@@ -62,7 +70,8 @@ const quotes = [
             to be done about it except to put up with it and wait until the wind changes.`,
         source: 'T.S. Eliot',
         citation: 'letter',
-        year: 1936
+        year: 1936,
+		tags: []
     },
     {
         quote: `
@@ -70,13 +79,15 @@ const quotes = [
             make you anxious not to hear the whole of it.`,
         source: 'Jerome K. Jerome',
         citation: 'Novel Notes',
-        year: ''
+        year: '',
+		tags: []
     },
     {
         quote: `Cats, I always think, only jump into your lap to check if you are cold enough, yet, to eat.`,
         source: 'Anne Enright',
         citation: 'The Gathering (novel)',
-        year: 2007
+        year: 2007,
+		tags: ['novel']
     },
     {
         quote: `
@@ -84,6 +95,7 @@ const quotes = [
             operated with a paw.`,
         source: 'Sir Terry Pratchett',
         citation: 'Men at Arms (novel)',
-        year: ''
+        year: '',
+		tags: ['humour', 'novel']
     }
 ]
