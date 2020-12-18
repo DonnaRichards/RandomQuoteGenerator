@@ -74,7 +74,7 @@ function printQuote() {
   }
   quoteHTML += `</p>`;
   // Set background colour to a random RGB value
-  document.getElementById('quote-box').style.backgroundColor = randomRGB();
+  document.body.style.backgroundColor = randomRGB();
   // display the quote on the webpage
   document.getElementById('quote-box').innerHTML = quoteHTML;
 }
